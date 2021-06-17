@@ -3,25 +3,6 @@ import Head from "next/head";
 
 import MeetupList from "../components/meetups/MeetupList";
 
-const DUMMY_MEETUPS = [
-  {
-    id: "m1",
-    title: "Sydney Opera House and the Harbour Bridge",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg/2560px-Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg",
-    address: "1 George St, Sydney 2000",
-    description: "This is Sydney",
-  },
-  {
-    id: "m2",
-    title: "The skyline of Melbourne",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/9/91/Melbourne_as_viewed_from_the_Shrine%2C_January_2019.png",
-    address: "1 George St, Melbourne 2000",
-    description: "This is Melbourne",
-  },
-];
-
 const HomePage = (props) => {
   return (
     <div>
